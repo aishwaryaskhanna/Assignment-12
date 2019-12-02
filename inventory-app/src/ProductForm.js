@@ -47,7 +47,7 @@ render() {
                 <input className="col-md-2 form-control" type="text" name="category" onChange={this.handleChange} value={this.state.product.category} /> <br/>
                 Price<br/>
                 <input className="col-md-2 form-control" type="text" name="price" onChange={this.handleChange} value={this.state.product.price} /> <br/>
-                <button className="btn btn-primary" type="submit" value="Save" onClick={this.handleSave} >Save </button><br/>
+                <button className="btn btn-info" type="submit" value="Save" onClick={this.handleSave} >Save </button><br/>
             </form>
         </div>
     )

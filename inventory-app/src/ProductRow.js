@@ -15,7 +15,7 @@ class ProductRow extends Component {
                 <td>{this.props.Name}</td>
                 <td>{this.props.Category}</td>
                 <td>{this.props.Price}</td>
-                <td><input type="button" className="btn btn-primary float-right" value="Delete" onClick={this.destroy}/></td>
+                <td><input type="button" className="btn btn-info float-right" value="Delete" onClick={this.destroy}/></td>
             </tr>
         )
     }
